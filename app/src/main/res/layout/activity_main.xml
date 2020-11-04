@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/blackdove"
     tools:context="id.idn.tsabit.covid19info.MainActivity">
 
     <TextView
@@ -14,7 +15,7 @@
         android:layout_marginTop="@dimen/dp8"
         android:layout_marginEnd="@dimen/dp8"
         android:text="@string/app_name"
-        android:textColor="@android:color/black"
+        android:textColor="@android:color/white"
         android:textSize="@dimen/sp20"
         android:textStyle="bold" />
 
@@ -165,7 +166,7 @@
             android:layout_marginTop="@dimen/dp8"
             android:layout_weight="4"
             android:text="Countries"
-            android:textColor="@android:color/black"
+            android:textColor="@color/white"
             android:textSize="@dimen/sp12"
             android:textStyle="bold" />
 
@@ -175,7 +176,7 @@
             android:layout_marginTop="@dimen/dp8"
             android:layout_weight="5"
             android:text="Cases"
-            android:textColor="@android:color/black"
+            android:textColor="@color/white"
             android:textSize="@dimen/sp12"
             android:textStyle="bold" />
 
@@ -185,7 +186,7 @@
             android:layout_marginTop="@dimen/dp8"
             android:layout_weight="5"
             android:text="Recovered"
-            android:textColor="@android:color/black"
+            android:textColor="@color/white"
             android:textSize="@dimen/sp12"
             android:textStyle="bold" />
 
@@ -195,7 +196,7 @@
             android:layout_marginTop="@dimen/dp8"
             android:layout_weight="5"
             android:text="Deaths"
-            android:textColor="@android:color/black"
+            android:textColor="@color/white"
             android:textSize="@dimen/sp12"
             android:textStyle="bold" />
     </LinearLayout>
